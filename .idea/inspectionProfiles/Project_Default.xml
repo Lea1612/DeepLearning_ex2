@@ -1,0 +1,52 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <Languages>
+        <language minSize="77" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoreConstantInTheMiddle" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="15">
+            <item index="0" class="java.lang.String" itemvalue="absl-py" />
+            <item index="1" class="java.lang.String" itemvalue="protobuf" />
+            <item index="2" class="java.lang.String" itemvalue="rsa" />
+            <item index="3" class="java.lang.String" itemvalue="wincertstore" />
+            <item index="4" class="java.lang.String" itemvalue="google-auth-oauthlib" />
+            <item index="5" class="java.lang.String" itemvalue="tensorboard-data-server" />
+            <item index="6" class="java.lang.String" itemvalue="numpy" />
+            <item index="7" class="java.lang.String" itemvalue="tqdm" />
+            <item index="8" class="java.lang.String" itemvalue="tensorboard" />
+            <item index="9" class="java.lang.String" itemvalue="tensorboard-plugin-wit" />
+            <item index="10" class="java.lang.String" itemvalue="cachetools" />
+            <item index="11" class="java.lang.String" itemvalue="grpcio" />
+            <item index="12" class="java.lang.String" itemvalue="urllib3" />
+            <item index="13" class="java.lang.String" itemvalue="Markdown" />
+            <item index="14" class="java.lang.String" itemvalue="google-auth" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="random.random.shuffle" />
+          <option value="list.var" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
